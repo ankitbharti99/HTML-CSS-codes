@@ -1,0 +1,11 @@
+div {
+    height: 100px;
+    width: 150px;
+    background-image: url("car.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    bottom: 300px;
+    color: violet;
+    border-radius: 25px;
+}

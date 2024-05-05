@@ -1,0 +1,60 @@
+* {
+  border: none;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(106, 0, 255),
+    rgb(242, 55, 108)
+  );
+}
+
+.heading {
+  display: inline-block;
+  text-align: center;
+  animation: moveHeading 5s infinite;
+}
+
+@keyframes moveHeading {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(465%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.given {
+  background-image: url("kunal_sir.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 300px;
+  border: 2px solid white;
+}
+.given:hover {
+  border: 2px double rgb(226, 43, 43);
+}
+
+.given_by {
+  font-style: italic;
+  text-decoration: aquamarine underline;
+}
+
+p {
+  position: relative;
+  left: 33%;
+  display: inline-block;
+  color: rgb(241, 241, 241);
+}
+
+a {
+  color: rgb(145, 255, 11);
+}
+
+footer {
+  position: absolute;
+}

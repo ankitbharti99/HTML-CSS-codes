@@ -1,0 +1,36 @@
+.change {
+    color: red;
+}
+
+button{
+    background-color: green;
+}
+
+h2 {
+    color: #00bbff;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight:normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+#parah {
+    font-family: cursive;
+    text-decoration: gray dotted underline;
+    font-size: 22px;
+    line-height: 16px;
+    background-color: blue;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+section {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 128, 0, 0.75);
+}

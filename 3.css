@@ -1,0 +1,49 @@
+#box1 {
+    position: static;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(216, 12, 92);
+    border: 2px double green;
+}
+
+#box2 {
+    text-align: right;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: fixed;
+    left: 90px;
+    border: 2px solid black;
+    z-index: -1;
+    background-image: url("img.jpg");
+    background-size: cover;
+}
+
+#box3 {
+    font-size: 2em; /*Text related to the parent while using 'em'.(2em = 2 * of parent font).*/
+    width: 2em; /*Other properties like width, height related to the font size  of element itself while using 'em'.(if font size of element is 32px, width = 1em = 32px).*/
+    height: 4em;
+    background-color: rgb(151, 128, 36);
+    position: sticky;
+    top: 20px;
+}
+
+#box4 {
+    height: 17vh; /*View height(vh) and View height(vw)*/
+    width: 225px;
+    border: 2px double red;
+    position: sticky;
+    bottom: 20px;
+    left: 40vw;
+    background-color: royalblue;
+    background-image: url("spiderman.jpg");
+    background-size: contain;
+}
+
+
+footer {
+    font-weight: 550;
+    text-align: center;
+    position: static;
+}

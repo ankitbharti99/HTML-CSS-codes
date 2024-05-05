@@ -1,0 +1,35 @@
+ul {
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(77, 72, 72);
+    list-style-type: none;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+
+a {
+    color: rgb(220, 177, 177);
+    text-decoration: none;
+}
+
+#outer {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(214, 54, 108);
+}
+#inner {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(62, 193, 62);
+    align-self: self-start;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* align-items apply on conatiner while align-self apply on individual flex items */
+/* align-self has higher priority than align-items */
