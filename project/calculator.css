@@ -14,7 +14,7 @@ body {
 .calc {
   height: 400px;
   width: 300px;
-  /* background-color: rgba(105, 105, 186, 0.849); */
+  margin: 20vh 0px;
 }
 
 .screen {
