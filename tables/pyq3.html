@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <!-- <head>
+    <title>Document</title>
+  </head> -->
+  <body>
+    <script>
+      const n = 153;
+      let temp,
+        r,
+        sum = 0;
+      temp = n;
+
+      while (n > 0) {
+        r = n % 10;
+        sum = sum + r * r * r;
+        n = n / 10;
+      }
+
+      if (temp == sum) {
+        document.writeln("Armstrong");
+      }
+    </script>
+    <!-- 
+    <p>Vegetarian Food</p>
+    <ol>
+      <li>Dosa</li>
+      <li>Idli</li>
+      <li>Bonda</li>
+      <li>Dairy Milk</li>
+    </ol>
+
+    <p>Chinese Food</p>
+    <ul>
+      <li>Chowmein</li>
+      <li>Pasta</li>
+      <li>Bat soup</li>
+      <li>Mendhak Chaap</li>
+    </ul> -->
+  </body>
+</html>

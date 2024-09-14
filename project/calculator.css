@@ -12,14 +12,20 @@ body {
 }
 
 .calc {
-  height: 400px;
+  padding-top: 25px;
+  border: 2px solid black;
+  border-radius: 12px;
+  height: 380px;
   width: 300px;
   margin: 20vh 0px;
 }
 
 .screen {
   height: 50px;
-  width: 300px;
+  width: 260px;
+  position: relative;
+  left: 15px;
+  /* border: none; */
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.075);
 }

@@ -7,6 +7,18 @@ body {
   padding-left: 20px;
 }
 
+#container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+#app {
+  text-align: center;
+  position: relative;
+  top: 20vh;
+}
+
 .box {
   height: 290px;
   width: 490px;
@@ -18,6 +30,7 @@ body {
   justify-content: space-evenly;
 }
 
+/* Elements */
 .heading {
   font-size: 25px;
   font-weight: 550;
